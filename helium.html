@@ -17,6 +17,36 @@
             <a href="#">Bed And Bath</a>
             <a href="#">Kids Clothing</a>
             <a href="#">Men's Wear</a>
+            <style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+ <div class="Menu">
+        <button class="Menu">Menu</button>
+        <div class="Menu-content">
+            <div class="dropdown">
+        <span>Menu</span>
+        <div class="dropdown-content">
+        <p>Shoes</p>
+        <p>Bed And Bath</p>
+        <p>Kids Clothing</p>
+        <p>Men Wear</p>
+        </div>
+        </div>
         </div>
     </div>
 
