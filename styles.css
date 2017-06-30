@@ -62,7 +62,9 @@ h5 {
 }
 
 .dropdown span{
-    
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
